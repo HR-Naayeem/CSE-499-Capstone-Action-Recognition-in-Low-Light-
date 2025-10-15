@@ -1,0 +1,7 @@
+# .streamlit/config.toml
+[theme]
+primaryColor="#1f5585ff"           # cyan accent (change to "#7F5AF0" for purple)
+backgroundColor="#050A14"        # your deep blue background
+secondaryBackgroundColor="#0A1020"
+textColor="#D8E8F6"
+font="sans serif"
