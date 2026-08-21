@@ -312,66 +312,6 @@ The Streamlit application displays:
 
 Users can also download prediction results for further analysis.
 
-## Reported Results
-
-The final model was evaluated on a held-out test set.
-
-| Metric | Result |
-| --- | ---: |
-| **Top-1 Accuracy** | **82.7%** |
-| **Top-5 Accuracy** | **98.9%** |
-| **Macro Precision** | **≈ 0.83** |
-| **Macro Recall** | **≈ 0.83** |
-| **Macro F1-Score** | **≈ 0.83** |
-| **Micro-Averaged AP** | **0.883** |
-
-The results show that the model achieves approximately **83% Top-1 accuracy**, while the correct action appears within the model's Top-5 predictions approximately **99% of the time**.
-
-## Per-Class Performance
-
-Some of the strongest-performing action classes were:
-
-| Action | F1-Score |
-| --- | ---: |
-| Pick | 0.94 |
-| Turn | 0.93 |
-| Wave | 0.92 |
-| Pour | 0.91 |
-| Drink | 0.90 |
-
-More challenging classes included visually similar movements such as **Push**, **Walk**, and **Run**, particularly under poor illumination.
-
-## Streamlit Application
-
-The project includes an interactive Streamlit application for testing the trained model.
-
-### Supported Video Formats
-
-- MP4
-- AVI
-- MPEG4
-- MOV
-
-### User Controls
-
-The interface allows users to configure:
-
-- number of frames analyzed
-- number of preview frames displayed
-- Top-K prediction count
-- prediction table visibility
-- confidence chart visibility
-- video preview
-- frame preview
-
-### Export Options
-
-Prediction results can be downloaded as:
-
-- Top-K predictions — CSV
-- prediction report — JSON
-- confidence chart — PNG
-- complete results package — ZIP
 
 ## Dataset
 
